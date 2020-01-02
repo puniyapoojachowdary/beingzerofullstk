@@ -1,1 +1,7 @@
-<p>pricing works!</p>
+
+<div class = "container">
+    <div *ngFor="let u of users.arr">
+        <div>{{u.login}}</div>
+        <img src = "{{u.avatar_url}}" height=100px width = 100px class = "image-thhumbnail">
+    </div>
+</div>
